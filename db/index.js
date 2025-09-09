@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+// Add you DB credentails
 mongoose.connect('mongodb+srv://<Username>:<Password>@<cluster-id>/FirstDB');
 
 
